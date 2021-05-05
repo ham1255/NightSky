@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "night_sky_g",
+  "version": "${version}",
+
+  "name": "Night Sky!",
+  "description": "changes the night sky stars",
+  "authors": [
+    "GloMC"
+  ],
+  "contact": {
+    "homepage": "https://github.com/glomc/",
+    "sources": "https://github.com/glomc/NightSky"
+  },
+
+  "license": "CC0-1.0",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.glomc.nightsky.NightSkyStars"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
