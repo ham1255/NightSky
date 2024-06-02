@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "id": "night_sky_g",
-  "version": "${version}",
+  "id": "nightsky",
+  "version": "1.0.1",
 
   "name": "Night Sky!",
   "description": "changes the night sky stars",
@@ -17,20 +17,15 @@
 
   "environment": "*",
   "entrypoints": {
-    "main": [
-      "net.glomc.nightsky.NightSkyStars"
-    ]
+
   },
   "mixins": [
-    "modid.mixins.json"
+    "nightsky.mixins.json"
   ],
 
   "depends": {
     "fabricloader": ">=0.7.4",
     "fabric": "*",
     "minecraft": "1.20.6"
-  },
-  "suggests": {
-    "another-mod": "*"
   }
 }

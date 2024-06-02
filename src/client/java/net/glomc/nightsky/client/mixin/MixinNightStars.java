@@ -1,4 +1,4 @@
-package net.glomc.nightsky.mixin;
+package net.glomc.nightsky.client.mixin;
 
 
 import net.minecraft.client.render.WorldRenderer;

@@ -1,7 +1,6 @@
 {
   "required": true,
-  "minVersion": "0.8",
-  "package": "net.glomc.nightsky.mixin",
+  "package": "net.glomc.nightsky.client.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
   ],
