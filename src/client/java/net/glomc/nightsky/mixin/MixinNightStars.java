@@ -9,7 +9,7 @@ import org.spongepowered.asm.mixin.injection.*;
 public class MixinNightStars {
 
 
-	@ModifyConstant(method = "renderStars(Lnet/minecraft/client/render/BufferBuilder;)V", constant = @Constant(intValue = 1500))
+	@ModifyConstant(method = "renderStars(Lnet/minecraft/client/render/BufferBuilder;)Lnet/minecraft/client/render/BufferBuilder$BuiltBuffer;", constant = @Constant(intValue = 1500))
 	private int set(int x) {
 		return 5000;
 	}
